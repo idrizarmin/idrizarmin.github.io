@@ -1,1 +1,0 @@
-# idrizarmin.github.io
