@@ -1,164 +1,149 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>idrizarmin.github.io</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armin Idriz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="is-preload">
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Armin Idriz</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
 
-	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Projects ▾</a>
+                    <ul class="dropdown-content">
+                        <li><a href="/projects/gymFit.html">GymFit Web</a></li>
+                        <li><a href="/projects/gymMobile.html">GymFit Mobile</a></li>
+                        <li><a href="/projects/onlineShop.html">PC Shop Mobile</a></li>
+                        <li><a href="/projects/onlineShopMobile.html">PC Shop Mobile</a></li>
+                    </ul>
+                </li>
 
-		<!-- Intro -->
-		<div id="intro">
-			<h1>My portofolio</h1>
-			<p>A showcase of my projects and my abilities</p>
-			<ul class="actions">
-				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-			</ul>
-		</div>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="logo">about me</a>
-		</header>
+            <!-- Hamburger -->
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul class="links">
-				<li class="active"><a href="index.html">About me</a></li>
-				<li><a href="generic.html">GymFit</a></li>
-				<li><a href="eShop.html">EShop</a></li>
-				<li><a href="elements.html">Pc Shop</a></li>
-			</ul>
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-				<li><a href="https://github.com/idrizarmin" class="icon brands fa-github">
-					<span class="label">GitHub</span></a></li>
-			</ul>
-		</nav>
-		<!-- Main -->
-		<div id="main">
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Armin</span></h1>
+            <p>Junior Developer | Web & Mobile Enthusiast</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
 
-			<!-- Featured Post -->
-			<article class="post featured">
-				<header class="major">
-					<h2><a href="#">My name is Armin Idriz</a></h2>
-					<p>I'm passionate developer but more importantly I'm passionate about technology<br />
-					<p>The combination of my passion for code quality, software arhitecture & performance positions me
-						in a unique place in the web development world.</p>
-				</header>
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/image0.jpeg" alt="My Photo">
+            </div>
+            <div class="about-text">
+                <p>
+                    I am a dedicated and results-driven junior developer with a strong passion for technology and
+                    software development.
+                    Having completed my degree in Information Technologies, I am motivated to apply my knowledge in
+                    real-world projects.
+                    I excel in collaborative environments, leveraging analytical and problem-solving skills to deliver
+                    high-quality solutions.
+                    With solid experience in C# and proficiency in modern web and mobile development frameworks such as
+                    Angular, Flutter, and ASP.NET Core,
+                    I am committed to building innovative and user-centric applications.
+                    My adaptability and continuous learning mindset enable me to embrace challenges and contribute
+                    effectively to project success.
+                    Let's create the future of technology together.
+                </p>
+            </div>
+        </div>
+    </section>
 
-			</article>
-			<article>
-				<header>
-					<h2>About me</h2>
-					<p></p>
-				</header>
-				<p><span class="image left"><img src="images/image0.jpeg" alt="" width="200" height="250" ></span> Dedicated and results-oriented student with a passion for technology and a proven track record in
-					software development. I thrive in collaborative environments, leveraging my strong analytical and
-					problem-solving skills to deliver high-quality solutions. With a solid foundation in languages such
-					as C# and proficiency in web and mobile development frameworks, including Angular, Flutter, and
-					ASP.NET Core, I am committed to creating innovative and user-centric applications. My adaptability,
-					coupled with a continuous learning mindset, allows me to navigate dynamic challenges and contribute
-					effectively to project success. Let's build the future of technology together.</p>
-			</article>
-			<!-- Posts -->
-			<section class="posts">
-				<article>
-					<header>
-						<h2>GymFit<br />
-							</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/Capture.PNG" alt="" /></a>
-					<p>GymFit is a dynamic fitness management system powered by Flutter for the frontend and ASP.NET
-						Core for the backend. This comprehensive platform integrates features such as workout tracking,
-						reservations scheduling, and memberships management, providing a seamless and responsive
-						experience. The application also leverages Hangfire for efficient background job processing,
-						ensuring smooth and automated task execution within the system.</p>
-					<ul class="actions special">
-						<li><a href="generic.html" class="button">Check out</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2>Online PC Shop<br />
-							</h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/Capture2.PNG" alt="" /></a>
-					<p>PC Online Shop is a dynamic e-commerce platform developed with Angular and ASP.NET (C#), offering
-						users an intuitive interface for seamless browsing, secure transactions, and efficient order
-						processing. The website provides a comprehensive and user-friendly experience for purchasing a
-						variety of computer products..</p>
-					<ul class="actions special">
-						<li><a href="elements.html" class="button">Check out</a></li>
-					</ul>
-				</article>
+    <section id="projects" class="projects fade-in">
+        <h2>My Projects</h2>
+        <div class="projects-wrapper">
 
-			</section>
+            <div class="projects-container" id="projects-container">
+                <div class="project-card">
+                    <a href="projects/gymFit.html">
+                        <h3>🌐 Web GymFit</h3>
+                        <img src="images/Capture.PNG" alt="Web App">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="projects/gymMobile.html">
+                        <h3>📱 Mobile Gym App</h3>
+                        <img src="images/Screenshot_1.png   " alt="Mobile App">
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="projects/onlineShop.html">
+                        <h3>🌐 Online PC Shop</h3>
+                        <img src="images/pcShop/Capture.PNG" alt=" API Backend">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <a href="projects/onlineShopMobile.html">
+                        <h3>📱 PC Shop Mobile App</h3>
+                        <img src="images/pcShop/Screenshot2.png" alt="Extra Project">
+                    </a>
+                </div>
+                <!-- <div class="project-card">
+                    <a href="">
+                        <h3>🍕 Pizza App</h3>
+                        <img src="images/Capture.PNG" alt="Extra Project">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+        <h2> </h2>
+    </section>
 
 
 
-		</div>
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-item">
+                <h4>Phone</h4>
+                <p><a href="#" id="copy-phone">+387 63 563 859</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>Email</h4>
+                <p><a href="mailto:idriz.armin5@gmail.com">idriz.armin5@gmail.com</a></p>
+            </div>
+            <div class="footer-item">
+                <h4>Social</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/tvoj_instagram" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/idrizarmin" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/idrizarmin" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 Armin Idriz | All rights reserved</p>
+    </footer>
 
-		<!-- Footer -->
-		<footer id="footer">
 
-			<section class="split contact">
+    <div id="toast">Phone number copied!</div>
 
-				<section>
-					<h3>Phone</h3>
-					<p><a href="#">+387 63 563 859</a></p>
-				</section>
-				<section>
-					<h3>Email</h3>
-					<p><a href="#">idriz.armin5@gmail.com</a></p>
-				</section>
-				<section>
-					<h3>Social</h3>
-					<ul class="icons alt">
-						<li><a href="https://instagram.com/_idriz99?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a>
-						</li>
-						<li><a href="www.linkedin.com/in/armin-idriz-a467432a7" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/idrizarmin" class="icon brands alt fa-github"><span
-									class="label">GitHub</span></a></li>
-					</ul>
-				</section>
-			</section>
-		</footer>
-
-		<!-- Copyright -->
-		<div id="copyright">
-			<ul>
-				<li>&copy; Code by Armin</li>
-				<li>Edition: 2023</li>
-			</ul>
-		</div>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
